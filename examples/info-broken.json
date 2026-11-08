@@ -1,0 +1,13 @@
+{
+  "deposit": {
+    "native": {
+      "enabled": "yes",
+      "min_amount": 100,
+      "max_amount": 1
+    }
+  },
+  "withdraw": {},
+  "features": {
+    "account_creation": "yes"
+  }
+}

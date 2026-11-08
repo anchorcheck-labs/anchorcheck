@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "specification": "SEP-24 v3.8.0 (selected checks, not certification)",
+  "scope": "Selected discovery, info, and captured-transaction checks; authentication and funds flows are not exercised",
+  "inspectedAt": "2026-11-08T18:16:17.672Z",
+  "home": "https://testanchor.stellar.org",
+  "requests": [
+    {
+      "url": "https://testanchor.stellar.org/.well-known/stellar.toml",
+      "status": 200
+    },
+    {
+      "url": "https://testanchor.stellar.org/sep24/info",
+      "status": 200
+    }
+  ],
+  "declaredNetworkPassphrase": "Test SDF Network ; September 2015",
+  "summary": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "findings": []
+}

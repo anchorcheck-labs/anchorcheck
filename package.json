@@ -1,0 +1,21 @@
+{
+  "name": "anchorcheck",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only SEP-24 anchor discovery and response diagnostics",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.js",
+    "check:reference": "node --dns-result-order=ipv4first scripts/check-reference.js"
+  },
+  "dependencies": {
+    "@iarna/toml": "2.2.5"
+  },
+  "author": "JamesEjembi <jameseonoja@gmail.com>"
+}
