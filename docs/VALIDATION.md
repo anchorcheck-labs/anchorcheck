@@ -6,6 +6,6 @@
 - Public testanchor.stellar.org discovery and /info check: zero errors and zero warnings for the implemented subset. Its discovery document declared Stellar Testnet. Report: docs/reference/latest.json.
 - HTTPS checks include a synthetic browser Origin header. No authentication, KYC, deposit, withdrawal or fund transfer was performed.
 - npm dependency audit at installation reported zero known vulnerabilities; this is not a security audit.
-- Remote CI and repository publication have not occurred.
+- Published to https://github.com/anchorcheck-labs/anchorcheck. GitHub Actions status is available in the repository Actions tab; local results above do not imply remote CI has passed.
 
 Passing these checks does not certify complete SEP compliance or establish funding-program eligibility. See CHECKS.md for covered rules and deferred work.
